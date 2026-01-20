@@ -7,16 +7,28 @@ The template includes some examples of plugin uses, how to use figures and other
 ## Commands
 
 To watch (re-compile on write) and open the resulting pdf, use:
-```typst w mastersThesisTemplate.typ --open```
+
+```
+typst w mastersThesisTemplate.typ --open
+```
 
 To compile the main file, and subsequent included files (e.g. chapters)
-```typst c mastersThesisTemplate.typ <optional_ouput_filename.pdf>```
+
+```
+typst c mastersThesisTemplate.typ <optional_ouput_filename.pdf>
+```
 
 To compile according to accessibility standard:
-```typst c --pdf-standard a-2b mastersThesisTemplate.typ```
+
+```
+typst c --pdf-standard a-2b mastersThesisTemplate.typ
+```
 
 To compile only a handful of pages:
-```typst c mastersThesisTemplate.typ --pages '1,10-20,29-33'```
+
+```
+typst c mastersThesisTemplate.typ --pages '1,10-20,29-33'
+```
 
 More info always available in the [docs](https://typst.app/docs/).
 
